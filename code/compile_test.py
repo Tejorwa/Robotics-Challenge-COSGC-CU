@@ -2,7 +2,7 @@ from node_modules import robot
 
 if __name__=="__main__":
 
-    rob = Robot()
+    rob = robot.Robot()
     rob.setAntenna(0x08,1)
     print(rob.ant.id)
     print("Succesfully Compiled!")
