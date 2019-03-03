@@ -4,7 +4,7 @@ import time
 if __name__=="__main__":
 
     rob = robot.Robot()
-    rob.setAntenna(0x08,1)
+    rob.setAntenna(0x08)
 
     x=0
     while(x<12):
