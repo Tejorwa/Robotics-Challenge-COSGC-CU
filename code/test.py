@@ -1,8 +1,9 @@
 from node_modules import robot
+import time
 
 if __name__=="__main__":
 
-    rob = Robot()
+    rob = robot.Robot()
     rob.setAntenna(0x08,1)
 
     x=0
@@ -10,3 +11,4 @@ if __name__=="__main__":
         head=rob.ant.getHeading()
         print(head)
         x+=1
+        time.sleep(2)
