@@ -3,9 +3,7 @@ from node_modules import DoF
 import time
 
 if __name__=="__main__":
-    D = DoF.DoF()
-
-    D.magRead()
+    D = DoF.DoF(0x1E)
 
     while True:
         print(D.getHeading())
