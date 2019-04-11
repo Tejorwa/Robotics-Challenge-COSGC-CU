@@ -1,7 +1,7 @@
 from node_modules import stepperMotor
 import time
 
-m1 = stepperMotor.Motor(1)
+m1 = stepperMotor.Motor()
 
 m1.forward(1)
 time.sleep(4)
